@@ -15,7 +15,7 @@ pipeline {
                         [
                             artifactId: 'sparkjava-hello-world', 
                             classifier: '', 
-                            file: "target/webapp.war", 
+                            file: "target/sparkjava-hello-world-1.0.war", 
                             type: 'war'
                         ]
                     ], 
